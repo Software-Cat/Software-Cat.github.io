@@ -1,16 +1,17 @@
 "use client";
 
-import { ThemeProvider } from "next-themes";
 import { ReactNode } from "react";
+import * as React from "react";
+import { ThemeProvider as NextThemesProvider } from "next-themes";
 
 interface Props {
   children?: ReactNode;
 }
 
-export function Providers({ children }: Props) {
+export function Providers({ children, ...props }: Props) {
   return (
-    <ThemeProvider attribute="class" defaultTheme="dark">
+    <NextThemesProvider {...props} attribute="class" defaultTheme="dark">
       {children}
-    </ThemeProvider>
+    </NextThemesProvider>
   );
 }

@@ -9,7 +9,7 @@ const meta: Meta<typeof Calendar> = {
 export default meta;
 type Story = StoryObj<typeof Calendar>;
 
-const CalendarWithHooks = () => {
+const HookedCalendar = () => {
   const [date, setDate] = React.useState<Date | undefined>(new Date());
 
   return (
@@ -23,5 +23,5 @@ const CalendarWithHooks = () => {
 };
 
 export const Primary: Story = {
-  render: () => <CalendarWithHooks />,
+  render: (args) => <HookedCalendar />,
 };
