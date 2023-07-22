@@ -34,11 +34,11 @@ import { cn } from "@/lib/utils";
 import { Slider } from "@/components/ui/slider";
 
 const cardContents = [
-  <CardContent className="p-0 space-y-2">
+  <CardContent key="0" className="p-0 space-y-2">
     <Label htmlFor="name">Name</Label>
     <Input type="name" id="name" placeholder="Bowen Wu" />
   </CardContent>,
-  <CardContent className="p-0">
+  <CardContent key="1" className="p-0">
     <Select>
       <SelectTrigger>
         <SelectValue placeholder="Select an interest" />
@@ -55,14 +55,14 @@ const cardContents = [
       </SelectContent>
     </Select>
   </CardContent>,
-  <CardContent className="py-8">
+  <CardContent key="2" className="py-8">
     <Slider defaultValue={[50]} max={100} step={1} className="w-[100%]" />
   </CardContent>,
-  <CardContent className="p-0 flex items-center space-x-2">
+  <CardContent key="3" className="p-0 flex items-center space-x-2">
     <Switch id="airplane-mode" checked={true} />
     <Label htmlFor="airplane-mode">Hard Mode</Label>
   </CardContent>,
-  <CardContent className="p-0 space-y-2">
+  <CardContent key="4" className="p-0 space-y-2">
     <RadioGroup defaultValue="comfortable">
       <div className="flex items-center space-x-2">
         <RadioGroupItem value="default" id="r1" />
@@ -78,7 +78,7 @@ const cardContents = [
       </div>
     </RadioGroup>
   </CardContent>,
-  <CardContent className="p-0 space-y-2">
+  <CardContent key="5" className="p-0 space-y-2">
     <Avatar>
       <AvatarImage src="https://github.com/software-cat.png" alt="@shadcn" />
       <AvatarFallback>CT</AvatarFallback>
