@@ -5,7 +5,6 @@ import {
   AccordionItem,
   AccordionTrigger,
 } from "@/components/ui/accordion";
-import { Providers } from "@/components/providers";
 
 const meta: Meta<typeof Accordion> = {
   component: Accordion,
