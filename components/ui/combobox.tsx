@@ -56,7 +56,7 @@ const movies = [
     id: "tt0050083",
   },
   {
-    title: "Schindler's List",
+    title: "Schindler&apos;s List",
     rank: "8",
     id: "tt0108052",
   },
@@ -81,7 +81,7 @@ const movies = [
     id: "tt0120737",
   },
   {
-    title: "One Flew Over the Cuckoo's Nest",
+    title: "One Flew Over the Cuckoo&apos;s Nest",
     rank: "13",
     id: "tt0073486",
   },
@@ -161,7 +161,7 @@ const movies = [
     id: "tt0047396",
   },
   {
-    title: "It's a Wonderful Life",
+    title: "It&apos;s a Wonderful Life",
     rank: "29",
     id: "tt0038650",
   },
@@ -452,7 +452,7 @@ const movies = [
     id: "tt0071315",
   },
   {
-    title: "Singin' in the Rain",
+    title: "Singin&apos; in the Rain",
     rank: "87",
     id: "tt0045152",
   },

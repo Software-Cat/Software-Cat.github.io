@@ -95,14 +95,14 @@ export default function Home() {
             <CardTitle className="text-8xl font-extrabold">
               Hello there
               <br />
-              I'm{" "}
+              I&apos;m{" "}
               <span className="text-transparent bg-clip-text bg-gradient-to-br from-fuchsia-600 to-pink-900">
                 Bowen Wu.
               </span>
             </CardTitle>
             <CardDescription className="text-2xl">
-              I'm a student, software developer, musician, and everything in
-              between. My <code>big goal</code> right now is to get into the{" "}
+              I&apos;m a student, software developer, musician, and everything
+              in between. My <code>big goal</code> right now is to get into the{" "}
               <HoverCard>
                 <HoverCardTrigger asChild>
                   <Button variant="link" className="p-0 text-2xl">
@@ -128,7 +128,7 @@ export default function Home() {
                   </div>
                 </HoverCardContent>
               </HoverCard>{" "}
-              Here's what I've been up to.
+              Here&apos;s what I&apos;ve been up to.
             </CardDescription>
           </CardHeader>
         </Card>
