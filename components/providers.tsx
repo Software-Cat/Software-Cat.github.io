@@ -8,7 +8,7 @@ interface Props {
   children?: ReactNode;
 }
 
-export function Providers({ children, ...props }: Props) {
+export default function Providers({ children, ...props }: Props) {
   return (
     <NextThemesProvider {...props} attribute="class" defaultTheme="dark">
       {children}
