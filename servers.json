@@ -60,6 +60,10 @@
       "name": "My Server 2",
       "address": "http://192.168.50.3:6969"
     },
+    {
+      "name": "My Server 3",
+      "address": "https://anisette-v3.burro-brill.ts.net"
+    },
   ],
   "cache": "https://servers.sidestore.io/servers.json.hash"
 }
