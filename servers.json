@@ -55,7 +55,11 @@
     {
       "name": "My Server",
       "address": "https://ani-6126.onrender.com"
-    }
+    },
+    {
+      "name": "My Server 2",
+      "address": "http://192.168.50.3:6969"
+    },
   ],
   "cache": "https://servers.sidestore.io/servers.json.hash"
 }
